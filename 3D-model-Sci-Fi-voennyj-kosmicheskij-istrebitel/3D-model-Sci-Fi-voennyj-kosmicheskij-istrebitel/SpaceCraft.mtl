@@ -1,0 +1,13 @@
+# Exported from Wings 3D 1.4.1
+newmtl hull
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 0.001 0.001 0.001
+Ks 0.8980392156862745 0.8980392156862745 0.8980392156862745
+Ke 0.0 0.0 0.0
+map_Bump BUMP_0.JPG
+map_Kd COLOR_0.JPG
+map_Ks specular_0.jpg
+
