@@ -170,7 +170,9 @@ function loadPatrol(scene, manifest, stationManifest, onReady) {
         });
       }
 
-      onReady({
+            onReady({
+        groups: ships.map(ship => ship.group),
+
         update: function(dt) {
           ships.forEach(ship => {
             ship.phase += orbit.speed * dt;
